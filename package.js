@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.1.0.2');
+  api.versionsFrom('1.2.1');
   api.use(
     [
       'underscore'
@@ -26,7 +26,7 @@ Package.onUse(function(api) {
 });
 
 Npm.depends({
-  braintree: '1.32.0'
+  braintree: '1.35.0'
 });
 
 Package.onTest(function(api) {
